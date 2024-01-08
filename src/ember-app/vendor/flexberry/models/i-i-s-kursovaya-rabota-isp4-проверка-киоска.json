@@ -1,0 +1,153 @@
+﻿{
+  "name": "IISKursovayaRabotaIsp4ПроверкаКиоска",
+  "modelName": "i-i-s-kursovaya-rabota-isp4-проверка-киоска",
+  "className": "ПроверкаКиоска",
+  "nameSpace": "IIS.KursovayaRabotaIsp4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "бумага",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "времяПроверки",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "готовКРаботе",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "датаПроверки",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "картЗаправ",
+      "type": "boolean",
+      "flexberryType": "bool",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "оператор",
+      "relatedTo": "i-i-s-kursovaya-rabota-isp4-оператор",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "фотокиоск",
+      "relatedTo": "i-i-s-kursovaya-rabota-isp4-фотокиоск",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПроверкаКиоскаE",
+      "modelName": "i-i-s-kursovaya-rabota-isp4-проверка-киоска",
+      "attrs": [
+        {
+          "name": "картЗаправ",
+          "caption": "Картридж заправлен",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "бумага",
+          "caption": "Бумага",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаПроверки",
+          "caption": "Дата проверки",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "времяПроверки",
+          "caption": "Время проверки",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "готовКРаботе",
+          "caption": "Готов к работе",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ПроверкаКиоскаL",
+      "modelName": "i-i-s-kursovaya-rabota-isp4-проверка-киоска",
+      "attrs": [
+        {
+          "name": "картЗаправ",
+          "caption": "Картридж заправлен",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "бумага",
+          "caption": "Бумага есть",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "датаПроверки",
+          "caption": "Дата проверки",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "времяПроверки",
+          "caption": "Время проверки",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "готовКРаботе",
+          "caption": "Готов к работе",
+          "hidden": false,
+          "index": 4
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

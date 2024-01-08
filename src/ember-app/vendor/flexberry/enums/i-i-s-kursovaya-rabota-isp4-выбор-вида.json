@@ -1,0 +1,10 @@
+﻿{
+  "nameSpace": "IIS.KursovayaRabotaIsp4",
+  "className": "ВыборВида",
+  "enumObjects": {
+    "Паспорт": "",
+    "Загран": "",
+    "Виза": "",
+    "Развлекат": ""
+  }
+}

@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Kursovaya rabota isp4",
+  "applicationTitle": "Kursovaya rabota isp4",
+  "items": [
+    {
+      "link": null,
+      "menuName": "kursovaya-rabota-isp4",
+      "caption": "KursovayaRabotaIsp4",
+      "title": "KursovayaRabotaIsp4",
+      "children": [
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-фотокиоск-l",
+          "menuName": null,
+          "caption": "Фотокиоск",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-проверка-киоска-l",
+          "menuName": null,
+          "caption": "Проверка киоска",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-тип-фото-l",
+          "menuName": null,
+          "caption": "Тип фото",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-чек-l",
+          "menuName": null,
+          "caption": "Чек",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-kursovaya-rabota-isp4-оператор-l",
+          "menuName": null,
+          "caption": "Оператор",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

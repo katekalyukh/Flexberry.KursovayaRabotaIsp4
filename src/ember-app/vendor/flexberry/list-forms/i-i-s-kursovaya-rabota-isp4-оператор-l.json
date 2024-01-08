@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-isp4-оператор-e",
+  "editForm": "i-i-s-kursovaya-rabota-isp4-оператор-e",
+  "external": false,
+  "caption": "Оператор",
+  "name": "IISKursovayaRabotaIsp4ОператорL",
+  "className": "ОператорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-isp4-оператор",
+      "modelProjection": "ОператорL"
+    }
+  ]
+}

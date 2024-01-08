@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-isp4-проверка-киоска-e",
+  "editForm": "i-i-s-kursovaya-rabota-isp4-проверка-киоска-e",
+  "external": false,
+  "caption": "Проверка киоска",
+  "name": "IISKursovayaRabotaIsp4ПроверкаКиоскаL",
+  "className": "ПроверкаКиоскаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-isp4-проверка-киоска",
+      "modelProjection": "ПроверкаКиоскаL"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+﻿{
+  "name": "IISKursovayaRabotaIsp4ТипФото",
+  "modelName": "i-i-s-kursovaya-rabota-isp4-тип-фото",
+  "className": "ТипФото",
+  "nameSpace": "IIS.KursovayaRabotaIsp4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "вид",
+      "type": "i-i-s-kursovaya-rabota-isp4-выбор-вида",
+      "flexberryType": "ВыборВида",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "код",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "стоимость",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТипФотоE",
+      "modelName": "i-i-s-kursovaya-rabota-isp4-тип-фото",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "вид",
+          "caption": "Вид",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ТипФотоL",
+      "modelName": "i-i-s-kursovaya-rabota-isp4-тип-фото",
+      "attrs": [
+        {
+          "name": "код",
+          "caption": "Код",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "вид",
+          "caption": "Вид",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Заказ",
+      "projection": "ЗаказL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Чек",
+  "name": "IISKursovayaRabotaIsp4ЧекE",
+  "className": "ЧекE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-isp4-чек",
+      "modelProjection": "ЧекE"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Тип фото",
+  "name": "IISKursovayaRabotaIsp4ТипФотоE",
+  "className": "ТипФотоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-isp4-тип-фото",
+      "modelProjection": "ТипФотоE"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+docker-compose -p kursovayarabotaisp4-java up -d

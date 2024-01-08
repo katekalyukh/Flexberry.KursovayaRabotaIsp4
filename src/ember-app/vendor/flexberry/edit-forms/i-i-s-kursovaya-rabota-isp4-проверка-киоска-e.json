@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Проверка киоска",
+  "name": "IISKursovayaRabotaIsp4ПроверкаКиоскаE",
+  "className": "ПроверкаКиоскаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-isp4-проверка-киоска",
+      "modelProjection": "ПроверкаКиоскаE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-kursovaya-rabota-isp4-чек-e",
+  "editForm": "i-i-s-kursovaya-rabota-isp4-чек-e",
+  "external": false,
+  "caption": "Чек",
+  "name": "IISKursovayaRabotaIsp4ЧекL",
+  "className": "ЧекL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-kursovaya-rabota-isp4-чек",
+      "modelProjection": "ЧекL"
+    }
+  ]
+}
